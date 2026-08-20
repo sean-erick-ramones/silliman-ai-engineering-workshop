@@ -1,0 +1,18 @@
+{
+  "name": "silliman-ai-engineering-workshop",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev:morning": "slidev morning-lecture.md --open",
+    "dev:afternoon": "slidev afternoon-workshop.md --open",
+    "build:morning": "slidev build morning-lecture.md --out dist/morning",
+    "build:afternoon": "slidev build afternoon-workshop.md --out dist/afternoon",
+    "export:morning": "slidev export morning-lecture.md --output morning-lecture.pdf",
+    "export:afternoon": "slidev export afternoon-workshop.md --output afternoon-workshop.pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.19.1",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest"
+  }
+}

@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Build output — rebuild with: npm run build:morning / npm run build:afternoon
+dist/
+
+# Vendored third-party skill — reinstall with: npx skills add slidevjs/slidev
+# Kept out of this repo so the CC BY license here covers only Sean's own material.
+.agents/skills/
+
+# Local editor and agent state
+.claude/settings.local.json
+# Symlink into the ignored vendored skill above — would be a dead link in a clone
+.claude/skills/
+
+# OS
+.DS_Store
+
+# Internal planning brief — stays local, not part of the public material
+handoff.md
