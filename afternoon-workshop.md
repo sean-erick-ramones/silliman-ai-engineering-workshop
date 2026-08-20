@@ -38,7 +38,8 @@ This deck is a working reference, not a lecture. Keep it visible on the projecto
 **bolt.new**
 free, no card, instant preview
 
-Backup if it's slow: **Google AI Studio → Build**
+Backup if it's slow: **AI Studio Build mode**
+<span class="text-sm opacity-60">aistudio.google.com/apps</span>
 
 </div>
 <div>
@@ -60,6 +61,8 @@ agent mode, signed in with GitHub
 </div>
 
 <!--
+The AI Studio fallback is Build mode, reached directly at aistudio.google.com/apps. There is no obvious "Build" tab to hunt for in the nav, so give students the URL rather than a click path. Any Google account works, and the Gemini API key is provisioned automatically. One trap: do not let students click Publish or Deploy. Building and previewing in the browser is free, but publishing asks for Google Cloud billing, and anyone with a prior Cloud billing account is ineligible for the free starter tier. Act 1 only needs a running preview, never a deploy.
+
 Two different tools for two different acts, on purpose — call this out directly rather than let it look like an accident. Act 2 deliberately has no tool of its own: it's the pause between building and rebuilding, and naming it here (even with nothing to install) keeps the room from thinking it got skipped. The morning talk used Claude Code; today uses free tools so everyone in the room can follow along with zero payment wall.
 -->
 
@@ -93,7 +96,7 @@ This assumes the install email already went out. If someone missed it entirely, 
 | Problem | Try this |
 |---|---|
 | Wifi won't connect | Ask a neighbor to hotspot, or flag Sean |
-| bolt.new slow or erroring | Switch to Google AI Studio → Build |
+| bolt.new slow or erroring | Go to **aistudio.google.com/apps**, sign in with any Google account |
 | VS Code has no Copilot icon | Extensions panel → search "GitHub Copilot" → install → sign in |
 | GitHub sign-in loop | Use a personal GitHub account, not a school SSO login |
 
@@ -134,7 +137,7 @@ This is the one requirement that carries through all three acts. Don't over-spec
 
 # The one-shot prompt
 
-Paste this into bolt.new (or AI Studio → Build) and see what comes back:
+Paste this into bolt.new (or aistudio.google.com/apps) and see what comes back:
 
 ```text
 Build a single-page web app called "CCS Event Board".

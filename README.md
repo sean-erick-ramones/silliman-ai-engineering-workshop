@@ -77,7 +77,8 @@ Everything used in the workshop is free. Nothing to pay for, no license to buy.
 
 - A laptop, charged
 - A **personal** GitHub account, not a school SSO login
-- A [bolt.new](https://bolt.new) account, for Act 1
+- A [bolt.new](https://bolt.new) account, for Act 1.
+  Fallback if it is slow: [AI Studio Build mode](https://aistudio.google.com/apps)
 - [VS Code](https://code.visualstudio.com) with the **GitHub Copilot** extension
   installed and signed in, for Act 3. GitHub Copilot Free is enough.
 
@@ -85,7 +86,7 @@ Troubleshooting:
 
 | Problem | Try this |
 |---|---|
-| bolt.new is slow or erroring | Use Google AI Studio, Build section |
+| bolt.new is slow or erroring | Go to [aistudio.google.com/apps](https://aistudio.google.com/apps), sign in with any Google account. Build and preview only, do not click Publish |
 | VS Code shows no Copilot icon | Extensions panel, search "GitHub Copilot", install, sign in |
 | GitHub sign-in keeps looping | Use a personal GitHub account, not school SSO |
 
